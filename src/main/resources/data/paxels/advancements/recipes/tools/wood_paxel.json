@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+	"recipes": [
+	  "paxels:wood_paxel"
+	]
+  },
+  "criteria": {
+	"has_stick": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"items": [
+		  {
+			"item": "minecraft:stick"
+		  }
+		]
+	  }
+	},
+	"has_the_recipe": {
+	  "trigger": "minecraft:recipe_unlocked",
+	  "conditions": {
+		"recipe": "paxels:wood_paxel"
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "has_stick",
+	  "has_the_recipe"
+	]
+  ]
+}

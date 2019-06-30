@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "paxels",
+  "version": "${version}",
+
+  "name": "Paxels",
+  "description": "Adds Paxels, Mining Multitools",
+  "authors": [
+    "UvMidnight"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/paxels",
+    "sources": "https://github.com/VoidSorc/Paxels"
+  },
+
+  "license": "MIT",
+  "icon": "assets/paxels/icon2.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "uvmidnight.paxels.Paxels"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  },
+
+  "suggests": {
+    "flamingo": "*"
+  }
+}

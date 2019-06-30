@@ -1,0 +1,19 @@
+{
+  "result": {
+	"item": "paxels:bedrock_paxel"
+  },
+  "pattern": [
+	"BBB",
+	" TB",
+	" T "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+	"T": {
+	  "item": "minecraft:stick"
+	},
+	"B": {
+	  "item": "minecraft:bedrock"
+	}
+  }
+}
